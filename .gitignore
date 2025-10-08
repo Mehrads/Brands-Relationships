@@ -1,0 +1,29 @@
+# Environment
+.env
+venv/
+env/
+*.pyc
+__pycache__/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Output
+outputs/
+logs/
+*.log
+results/
+*.csv
+
+# Neo4j
+.neo4j/
+
+# Python
+*.egg-info/
+dist/
+build/
+

@@ -1,0 +1,44 @@
+# LLM and Agent Framework
+openai>=1.40.0
+anthropic>=0.31.0
+langchain>=0.2.0
+langchain-openai>=0.1.0
+langchain-community>=0.2.0
+
+# Graph Database
+neo4j>=5.20.0
+py2neo>=2021.2.4
+
+# Web Search
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+tavily-python>=0.3.0
+duckduckgo-search>=6.1.0
+googlesearch-python>=1.2.0
+
+# Data Validation and Processing
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+
+# NLP and Text Processing
+spacy>=3.7.0
+transformers>=4.40.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+tenacity>=8.3.0
+
+# Visualization
+matplotlib>=3.8.0
+networkx>=3.3.0
+pyvis>=0.3.2
+
+# API and Web
+fastapi>=0.111.0
+uvicorn>=0.30.0
+
+# Testing
+pytest>=8.2.0
+pytest-asyncio>=0.23.0
+

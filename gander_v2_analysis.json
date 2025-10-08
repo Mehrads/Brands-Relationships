@@ -1,0 +1,455 @@
+{
+  "subject_brand": "Gander",
+  "category": "technology/seo_analytics",
+  "brands": [
+    {
+      "name": "Gander",
+      "mentions": 5,
+      "context": [
+        "Gander (research.gander.ai) is piloting a GEO visibility study with Fokule this quarter.",
+        "See the joint teaser at https://www.fokule.com/ and our launch note: https://gander.ai/blog/launch?utm_source=twitter&utm_medium=social&utm_campaign=geo16.",
+        "For customer support, write to support@gander.ai.",
+        "Competitor reaction: 'Gander's 'plume index' is clever but early,' said a spokesperson at Acme Visibility.",
+        "Seg\u00fan Google Trends en M\u00e9xico, 'Gander' crece junto a 'Banco Santander' en b\u00fasquedas de marca, pero no hay relaci\u00f3n comercial."
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Fokule",
+      "mentions": 1,
+      "context": [
+        "Gander (research.gander.ai) is piloting a GEO visibility study with Fokule this quarter."
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Azure OpenAI Service",
+      "mentions": 1,
+      "context": [
+        "This pilot integrates the Azure OpenAI Service (by Microsoft) and calls to @OpenAI's APIs for re-ranking, but hosting remains on Azure."
+      ],
+      "aliases": [
+        "Azure"
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "mentions": 1,
+      "context": [
+        "This pilot integrates the Azure OpenAI Service (by Microsoft) and calls to @OpenAI's APIs for re-ranking, but hosting remains on Azure."
+      ],
+      "aliases": []
+    },
+    {
+      "name": "OpenAI",
+      "mentions": 2,
+      "context": [
+        "This pilot integrates the Azure OpenAI Service (by Microsoft) and calls to @OpenAI's APIs for re-ranking, but hosting remains on Azure.",
+        "OpenAI citing my brand more after prompt refactors; correlation \u2260 causation."
+      ],
+      "aliases": [
+        "@OpenAI"
+      ]
+    },
+    {
+      "name": "Sistrix",
+      "mentions": 1,
+      "context": [
+        "For baseline SEO vs GEO comparisons we benchmarked against Sistrix and GrowthBar\u2014both strong competitors in classic SEO analytics."
+      ],
+      "aliases": []
+    },
+    {
+      "name": "GrowthBar",
+      "mentions": 2,
+      "context": [
+        "For baseline SEO vs GEO comparisons we benchmarked against Sistrix and GrowthBar\u2014both strong competitors in classic SEO analytics.",
+        "GrowthBar's blog also mentioned us in passing: https://www.growthbarseo.com/blog/ai-citation-trends/."
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Google",
+      "mentions": 2,
+      "context": [
+        "We also reference Google Trends data, and several results surfaced on YouTube (Google's video platform).",
+        "Seg\u00fan Google Trends en M\u00e9xico, 'Gander' crece junto a 'Banco Santander' en b\u00fasquedas de marca, pero no hay relaci\u00f3n comercial."
+      ],
+      "aliases": []
+    },
+    {
+      "name": "YouTube",
+      "mentions": 1,
+      "context": [
+        "We also reference Google Trends data, and several results surfaced on YouTube (Google's video platform)."
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Meta",
+      "mentions": 1,
+      "context": [
+        "Note: 'metadata' here refers to data about our prompts; it is not related to Meta the company."
+      ],
+      "aliases": [
+        "Meta"
+      ]
+    },
+    {
+      "name": "Globex",
+      "mentions": 1,
+      "context": [
+        "Key partners we're exploring: \u2022 Globex \u2014 see [Partner case study](https://globex.com/cases/gander) and the short explainer: https://bit.ly/4ExAmplE"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Contoso Labs",
+      "mentions": 1,
+      "context": [
+        "\u2022 Contoso Labs \u2014 whitepaper (PDF): https://contoso.example/files/geo-study-2025.pdf"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "NOAA SWPC",
+      "mentions": 1,
+      "context": [
+        "Regulatory/data sources: \u2022 NOAA SWPC space weather outlook (PDF): https://example.org/noaa/swpc-weekly-forecast.pdf"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Acme Visibility",
+      "mentions": 1,
+      "context": [
+        "Competitor reaction: 'Gander's 'plume index' is clever but early,' said a spokesperson at Acme Visibility."
+      ],
+      "aliases": [
+        "Acme"
+      ]
+    },
+    {
+      "name": "Banco Santander",
+      "mentions": 1,
+      "context": [
+        "Seg\u00fan Google Trends en M\u00e9xico, 'Gander' crece junto a 'Banco Santander' en b\u00fasquedas de marca, pero no hay relaci\u00f3n comercial."
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Nike",
+      "mentions": 1,
+      "context": [
+        "Disambiguation: \u2022 'Jordan Nike' (our contractor) authored the prototype; the surname is not related to the Nike brand."
+      ],
+      "aliases": []
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Gander",
+      "target": "Fokule",
+      "relationship_type": "partner",
+      "category": "technology/seo_analytics",
+      "relationship_context": "technology/seo_analytics",
+      "confidence": 0.9,
+      "evidence": "Gander (research.gander.ai) is piloting a GEO visibility study with Fokule this quarter.",
+      "source_type": "graph_db",
+      "flagged": false,
+      "reasoning": "Retrieved from knowledge graph. Stored relationship type: partner in context: technology/seo_analytics",
+      "sentiment": "neutral"
+    },
+    {
+      "source": "Gander",
+      "target": "Azure OpenAI Service",
+      "relationship_type": "partner",
+      "category": "technology/seo_analytics",
+      "relationship_context": "technology/seo_analytics",
+      "confidence": 0.85,
+      "evidence": "This pilot integrates the Azure OpenAI Service (by Microsoft) and calls to @OpenAI's APIs for re-ranking, but hosting remains on Azure.",
+      "source_type": "graph_db",
+      "flagged": false,
+      "reasoning": "Retrieved from knowledge graph. Stored relationship type: partner in context: technology/seo_analytics",
+      "sentiment": "neutral"
+    },
+    {
+      "source": "Gander",
+      "target": "Microsoft",
+      "relationship_type": "partner",
+      "category": "technology/seo_analytics",
+      "relationship_context": "technology/seo_analytics",
+      "confidence": 0.85,
+      "evidence": "This pilot integrates the Azure OpenAI Service (by Microsoft) and calls to @OpenAI's APIs for re-ranking, but hosting remains on Azure.",
+      "source_type": "graph_db",
+      "flagged": false,
+      "reasoning": "Retrieved from knowledge graph. Stored relationship type: partner in context: technology/seo_analytics",
+      "sentiment": "neutral"
+    },
+    {
+      "source": "Gander",
+      "target": "OpenAI",
+      "relationship_type": "partner",
+      "category": "technology/seo_analytics",
+      "relationship_context": "technology/seo_analytics",
+      "confidence": 0.85,
+      "evidence": "This pilot integrates the Azure OpenAI Service (by Microsoft) and calls to @OpenAI's APIs for re-ranking, but hosting remains on Azure. | OpenAI citing my brand more after prompt refactors; correlation \u2260 causation.",
+      "source_type": "graph_db",
+      "flagged": false,
+      "reasoning": "Retrieved from knowledge graph. Stored relationship type: partner in context: technology/seo_analytics",
+      "sentiment": "neutral"
+    },
+    {
+      "source": "Gander",
+      "target": "Sistrix",
+      "relationship_type": "competitor",
+      "category": "technology/seo_analytics",
+      "relationship_context": "seo_analytics",
+      "confidence": 0.9,
+      "evidence": "For baseline SEO vs GEO comparisons we benchmarked against Sistrix and GrowthBar\u2014both strong competitors in classic SEO analytics.",
+      "source_type": "graph_db",
+      "flagged": false,
+      "reasoning": "Retrieved from knowledge graph. Stored relationship type: competitor in context: seo_analytics",
+      "sentiment": "neutral"
+    },
+    {
+      "source": "Gander",
+      "target": "GrowthBar",
+      "relationship_type": "competitor",
+      "category": "technology/seo_analytics",
+      "relationship_context": "seo_analytics",
+      "confidence": 0.9,
+      "evidence": "For baseline SEO vs GEO comparisons we benchmarked against Sistrix and GrowthBar\u2014both strong competitors in classic SEO analytics. | GrowthBar's blog also mentioned us in passing: https://www.growthbarseo.com/blog/ai-citation-trends/.",
+      "source_type": "graph_db",
+      "flagged": false,
+      "reasoning": "Retrieved from knowledge graph. Stored relationship type: competitor in context: seo_analytics",
+      "sentiment": "neutral"
+    },
+    {
+      "source": "Gander",
+      "target": "Google",
+      "relationship_type": "neutral",
+      "category": "technology/seo_analytics",
+      "relationship_context": "technology/seo_analytics",
+      "confidence": 0.7,
+      "evidence": "We also reference Google Trends data, and several results surfaced on YouTube (Google's video platform). | Seg\u00fan Google Trends en M\u00e9xico, 'Gander' crece junto a 'Banco Santander' en b\u00fasquedas de marca, pero no hay relaci\u00f3n comercial.",
+      "source_type": "graph_db",
+      "flagged": false,
+      "reasoning": "Retrieved from knowledge graph. Stored relationship type: neutral in context: technology/seo_analytics",
+      "sentiment": "neutral"
+    },
+    {
+      "source": "Gander",
+      "target": "YouTube",
+      "relationship_type": "neutral",
+      "category": "technology/seo_analytics",
+      "relationship_context": "technology/seo_analytics",
+      "confidence": 0.6,
+      "evidence": "We also reference Google Trends data, and several results surfaced on YouTube (Google's video platform).",
+      "source_type": "graph_db",
+      "flagged": true,
+      "reasoning": "Retrieved from knowledge graph. Stored relationship type: neutral in context: technology/seo_analytics",
+      "sentiment": "neutral"
+    },
+    {
+      "source": "Gander",
+      "target": "Meta",
+      "relationship_type": "neutral",
+      "category": "technology/seo_analytics",
+      "relationship_context": "technology/seo_analytics",
+      "confidence": 0.8,
+      "evidence": "Note: 'metadata' here refers to data about our prompts; it is not related to Meta the company.",
+      "source_type": "web_search",
+      "flagged": false,
+      "reasoning": "The text explicitly states that 'metadata' is not related to Meta the company, indicating that there is no direct relationship between Gander and Meta in the context of technology/seo_analytics. The mention of Meta is only to clarify a potential confusion with the term 'metadata'.",
+      "sentiment": "neutral"
+    },
+    {
+      "source": "Gander",
+      "target": "Globex",
+      "relationship_type": "partner",
+      "category": "technology/seo_analytics",
+      "relationship_context": "technology/seo_analytics",
+      "confidence": 0.85,
+      "evidence": "Key partners we're exploring: \u2022 Globex \u2014 see [Partner case study](https://globex.com/cases/gander) and the short explainer: https://bit.ly/4ExAmplE",
+      "source_type": "graph_db",
+      "flagged": false,
+      "reasoning": "Retrieved from knowledge graph. Stored relationship type: partner in context: technology/seo_analytics",
+      "sentiment": "neutral"
+    },
+    {
+      "source": "Gander",
+      "target": "Contoso Labs",
+      "relationship_type": "partner",
+      "category": "technology/seo_analytics",
+      "relationship_context": "technology/seo_analytics",
+      "confidence": 0.8,
+      "evidence": "\u2022 Contoso Labs \u2014 whitepaper (PDF): https://contoso.example/files/geo-study-2025.pdf",
+      "source_type": "graph_db",
+      "flagged": false,
+      "reasoning": "Retrieved from knowledge graph. Stored relationship type: partner in context: technology/seo_analytics",
+      "sentiment": "neutral"
+    },
+    {
+      "source": "Gander",
+      "target": "NOAA SWPC",
+      "relationship_type": "neutral",
+      "category": "technology/seo_analytics",
+      "relationship_context": "technology/seo_analytics",
+      "confidence": 0.6,
+      "evidence": "Regulatory/data sources: \u2022 NOAA SWPC space weather outlook (PDF): https://example.org/noaa/swpc-weekly-forecast.pdf",
+      "source_type": "graph_db",
+      "flagged": true,
+      "reasoning": "Retrieved from knowledge graph. Stored relationship type: neutral in context: technology/seo_analytics",
+      "sentiment": "neutral"
+    },
+    {
+      "source": "Gander",
+      "target": "Acme Visibility",
+      "relationship_type": "competitor",
+      "category": "technology/seo_analytics",
+      "relationship_context": "seo_analytics",
+      "confidence": 0.85,
+      "evidence": "Competitor reaction: 'Gander's 'plume index' is clever but early,' said a spokesperson at Acme Visibility.",
+      "source_type": "graph_db",
+      "flagged": false,
+      "reasoning": "Retrieved from knowledge graph. Stored relationship type: competitor in context: seo_analytics",
+      "sentiment": "neutral"
+    },
+    {
+      "source": "Gander",
+      "target": "Banco Santander",
+      "relationship_type": "neutral",
+      "category": "technology/seo_analytics",
+      "relationship_context": "seo_analytics",
+      "confidence": 0.8,
+      "evidence": "Seg\u00fan Google Trends en M\u00e9xico, 'Gander' crece junto a 'Banco Santander' en b\u00fasquedas de marca, pero no hay relaci\u00f3n comercial.",
+      "source_type": "graph_db",
+      "flagged": false,
+      "reasoning": "Retrieved from knowledge graph. Stored relationship type: neutral in context: seo_analytics",
+      "sentiment": "neutral"
+    },
+    {
+      "source": "Gander",
+      "target": "Nike",
+      "relationship_type": "neutral",
+      "category": "technology/seo_analytics",
+      "relationship_context": "technology/seo_analytics",
+      "confidence": 0.8,
+      "evidence": "Disambiguation: \u2022 'Jordan Nike' (our contractor) authored the prototype; the surname is not related to the Nike brand.",
+      "source_type": "graph_db",
+      "flagged": false,
+      "reasoning": "Retrieved from knowledge graph. Stored relationship type: neutral in context: technology/seo_analytics",
+      "sentiment": "neutral"
+    }
+  ],
+  "citations": [
+    {
+      "source": "Fokule",
+      "text": "Gander is piloting a GEO visibility study with Fokule this quarter.",
+      "citation_type": "announcement",
+      "url": "https://www.fokule.com/",
+      "date": null
+    },
+    {
+      "source": "Gander",
+      "text": "Launch note for the GEO visibility study.",
+      "citation_type": "blog_post",
+      "url": "https://gander.ai/blog/launch?utm_source=twitter&utm_medium=social&utm_campaign=geo16",
+      "date": null
+    },
+    {
+      "source": "Globex",
+      "text": "Partner case study with Gander.",
+      "citation_type": "case_study",
+      "url": "https://globex.com/cases/gander",
+      "date": null
+    },
+    {
+      "source": "Globex",
+      "text": "Short explainer about the partnership with Gander.",
+      "citation_type": "other",
+      "url": "https://bit.ly/4ExAmplE",
+      "date": null
+    },
+    {
+      "source": "Contoso Labs",
+      "text": "Whitepaper on GEO study 2025.",
+      "citation_type": "whitepaper",
+      "url": "https://contoso.example/files/geo-study-2025.pdf",
+      "date": null
+    },
+    {
+      "source": "NOAA SWPC",
+      "text": "Space weather outlook.",
+      "citation_type": "whitepaper",
+      "url": "https://example.org/noaa/swpc-weekly-forecast.pdf",
+      "date": null
+    },
+    {
+      "source": "Acme Visibility",
+      "text": "Gander's 'plume index' is clever but early.",
+      "citation_type": "statement",
+      "url": null,
+      "date": null
+    },
+    {
+      "source": "GrowthBar",
+      "text": "Mention of Gander in GrowthBar's blog.",
+      "citation_type": "blog_post",
+      "url": "https://www.growthbarseo.com/blog/ai-citation-trends/",
+      "date": null
+    },
+    {
+      "source": "Google Trends",
+      "text": "Gander is growing in brand searches alongside Banco Santander in Mexico.",
+      "citation_type": "report",
+      "url": null,
+      "date": null
+    },
+    {
+      "source": "@brandstrategist42",
+      "text": "If Gander nails #GEO16, agencies will rethink their playbooks.",
+      "citation_type": "social_media",
+      "url": null,
+      "date": null
+    },
+    {
+      "source": "@martech_tinkerer",
+      "text": "OpenAI citing my brand more after prompt refactors; correlation \u2260 causation.",
+      "citation_type": "social_media",
+      "url": null,
+      "date": null
+    }
+  ],
+  "flagged_items": [
+    {
+      "item_type": "relationship",
+      "item": "Gander-YouTube",
+      "reason": "Confidence below threshold (0.60 < 0.7)",
+      "confidence": 0.6,
+      "requires_review": true
+    },
+    {
+      "item_type": "relationship",
+      "item": "Gander-NOAA SWPC",
+      "reason": "Confidence below threshold (0.60 < 0.7)",
+      "confidence": 0.6,
+      "requires_review": true
+    }
+  ],
+  "metadata": {
+    "brand_extraction_confidence": 0.95,
+    "citation_extraction_confidence": 0.95,
+    "category_confidence": 0.95,
+    "secondary_categories": [
+      "technology/artificial_intelligence",
+      "technology/cloud_computing",
+      "technology/data_analysis"
+    ],
+    "total_brands": 16,
+    "total_relationships": 15,
+    "total_citations": 11,
+    "flagged_count": 2
+  }
+}

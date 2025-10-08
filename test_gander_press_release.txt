@@ -1,0 +1,22 @@
+Gander (research.gander.ai) is piloting a GEO visibility study with Fokule this quarter. See the joint teaser at https://www.fokule.com/ and our launch note: https://gander.ai/blog/launch?utm_source=twitter&utm_medium=social&utm_campaign=geo16 . For customer support, write to support@gander.ai.
+
+This pilot integrates the Azure OpenAI Service (by Microsoft) and calls to @OpenAI's APIs for re-ranking, but hosting remains on Azure. For baseline SEO vs GEO comparisons we benchmarked against Sistrix and GrowthBar—both strong competitors in classic SEO analytics. We also reference Google Trends data, and several results surfaced on YouTube (Google's video platform). Note: "metadata" here refers to data about our prompts; it is not related to Meta the company.
+
+Key partners we're exploring:
+• Globex — see [Partner case study](https://globex.com/cases/gander) and the short explainer: https://bit.ly/4ExAmplE
+• Contoso Labs — whitepaper (PDF): https://contoso.example/files/geo-study-2025.pdf
+
+Regulatory/data sources:
+• NOAA SWPC space weather outlook (PDF): https://example.org/noaa/swpc-weekly-forecast.pdf
+
+Competitor reaction: "Gander's 'plume index' is clever but early," said a spokesperson at Acme Visibility. (Acme is not a partner.) GrowthBar's blog also mentioned us in passing: https://www.growthbarseo.com/blog/ai-citation-trends/ .
+
+Community chatter sampled from X:
+- "If Gander nails #GEO16, agencies will rethink their playbooks." — @brandstrategist42
+- "OpenAI citing my brand more after prompt refactors; correlation ≠ causation." — @martech_tinkerer
+
+International note: Según Google Trends en México, "Gander" crece junto a "Banco Santander" en búsquedas de marca, pero no hay relación comercial.
+
+Disambiguation:
+• "Jordan Nike" (our contractor) authored the prototype; the surname is not related to the Nike brand.
+• "meta-data pipeline" in our docs is hyphenated to avoid confusion with Meta Platforms, Inc.
