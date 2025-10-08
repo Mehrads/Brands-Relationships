@@ -60,24 +60,7 @@ The dashboard visualizations demonstrate our system's effectiveness. *Note: Dash
 - **Rationale**: Neutral relationships dominate because many business relationships are transactional rather than emotional
 - **Insight**: The system accurately captures the pragmatic nature of corporate partnerships
 
-### 2. Relationship Categories & Types
-![Category and Type Distribution](images/category_type_distribution.png)
-
-**Analysis**: Technology categories show highest activity
-- **Rationale**: Our Apple analysis focused on tech ecosystem relationships
-- **Insight**: The system correctly identifies domain-specific relationship patterns
-- **Relationship Types**: Partners (21), Competitors (12), Neutral (10) dominate
-- **Rationale**: Tech industry has complex partnership-competition dynamics
-
-### 3. Key Performance Indicators
-![KPI Dashboard](images/kpi_dashboard.png)
-
-**Key Metrics Displayed**:
-- **Total Brands**: 38 in database
-- **Total Relationships**: 47 identified
-- **Average Confidence**: 0.84 across all relationships
-
-### 4. Detailed Relationship Overview
+### 2. Detailed Relationship Overview
 ![Detailed Overview](images/detailed_overview.png)
 
 **Sample Relationships from Table**:
@@ -85,7 +68,12 @@ The dashboard visualizations demonstrate our system's effectiveness. *Note: Dash
 - **Apple → iPhone**: Parent, Neutral, 0.95 confidence  
 - **Nvidia → Microsoft**: Partner, Positive, 0.95 confidence
 
-### 5. Network Visualization
+**Key Metrics Displayed**:
+- **Total Brands**: 38 in database
+- **Total Relationships**: 47 identified
+- **Average Confidence**: 0.84 across all relationships
+
+### 3. Network Visualization
 ![Network Graph](images/network_graph.png)
 
 **Network Structure Analysis**:
