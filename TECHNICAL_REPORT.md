@@ -164,24 +164,6 @@ The dashboard visualizations demonstrate our system's effectiveness. *Note: Dash
 
 **Context Switching Demonstrated**: Apple-Samsung relationship varies by domain (partner in supply chain, competitor in smartphones)
 
-### Gander Analysis Results
-**Input**: Press release about Gander's GEO visibility study pilot with Fokule
-
-**Key Findings**:
-- **Subject Brand**: Gander (5 mentions)
-- **Category**: technology/seo_analytics
-- **Brands Identified**: 12 brands including Gander, Fokule, Microsoft, OpenAI, Google, Sistrix, GrowthBar
-- **Key Relationships**:
-  - Gander → Fokule: Partner (joint pilot study)
-  - Gander → Microsoft: Partner (Azure OpenAI Service integration)
-  - Gander → Sistrix: Competitor (SEO analytics market)
-  - Gander → GrowthBar: Competitor (SEO tools market)
-- **Citations**: 8 sources including Gander blog, Fokule website, partner case studies
-- **Confidence**: 0.82 average across all relationships
-
-**Multi-language Support**: Successfully handled Spanish text ("Según Google Trends en México")
-**Disambiguation**: Correctly distinguished "Gander" from "Banco Santander" despite search correlation
-
 ## Production Readiness
 
 ### Unit Testing Coverage
