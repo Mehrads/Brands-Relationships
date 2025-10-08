@@ -51,17 +51,17 @@ We chose Neo4j over alternatives (PostgreSQL, MongoDB, vector databases) for sev
 
 ## Neo4j Dashboard Analysis
 
-The dashboard visualizations demonstrate our system's effectiveness. *Note: The following analysis is based on the Neo4j Bloom dashboard screenshots showing real-time analytics of our brand relationship graph.*
+The dashboard visualizations demonstrate our system's effectiveness. *Note: Dashboard screenshots from Neo4j Bloom showing real-time analytics of our brand relationship graph.*
 
 ### 1. Relationship Sentiment Distribution
-*[Dashboard shows pie chart with 29 neutral (light blue), 12 positive (purple), 4 negative (orange), 2 null (pink) relationships]*
+![Sentiment Distribution](images/sentiment_distribution.png)
 
 **Analysis**: 29 neutral, 12 positive, 4 negative relationships
 - **Rationale**: Neutral relationships dominate because many business relationships are transactional rather than emotional
 - **Insight**: The system accurately captures the pragmatic nature of corporate partnerships
 
 ### 2. Relationship Categories & Types
-*[Dashboard shows bar charts for categories and types - Technology categories highest, with 21 partners, 12 competitors, 10 neutral relationships]*
+![Category and Type Distribution](images/category_type_distribution.png)
 
 **Analysis**: Technology categories show highest activity
 - **Rationale**: Our Apple analysis focused on tech ecosystem relationships
@@ -70,7 +70,7 @@ The dashboard visualizations demonstrate our system's effectiveness. *Note: The 
 - **Rationale**: Tech industry has complex partnership-competition dynamics
 
 ### 3. Key Performance Indicators
-*[Dashboard shows three KPI panels]*
+![KPI Dashboard](images/kpi_dashboard.png)
 
 **Key Metrics Displayed**:
 - **Total Brands**: 38 in database
@@ -78,7 +78,7 @@ The dashboard visualizations demonstrate our system's effectiveness. *Note: The 
 - **Average Confidence**: 0.84 across all relationships
 
 ### 4. Detailed Relationship Overview
-*[Dashboard shows tabular view with Brand1, Brand2, Type, Sentiment, Confidence, Reasoning columns]*
+![Detailed Overview](images/detailed_overview.png)
 
 **Sample Relationships from Table**:
 - **Apple → Samsung**: Partner, Positive, 0.95 confidence
@@ -86,7 +86,7 @@ The dashboard visualizations demonstrate our system's effectiveness. *Note: The 
 - **Nvidia → Microsoft**: Partner, Positive, 0.95 confidence
 
 ### 5. Network Visualization
-*[Dashboard shows graph network with Apple as central hub connected to 15+ brands including Samsung, OpenAI, Google, Microsoft, etc.]*
+![Network Graph](images/network_graph.png)
 
 **Network Structure Analysis**:
 - **Apple**: Central hub with 15+ connections (Samsung, iPhone, Bloomberg, Galaxy, LG Display, Sony, Tesla, X, Anthropic, OpenAI, Google, Reddit, Orange Pie Rev, Copilot, iOS, AWS, TSMC, Apple Bank)
