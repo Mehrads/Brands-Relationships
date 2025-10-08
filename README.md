@@ -673,9 +673,12 @@ Brands-Relationships/
 ├── tests/                   # Unit tests
 │   └── test_pipeline.py
 │
+├── docker/                  # Docker deployment files
+│   ├── Dockerfile
+│   └── docker-compose.yml
+│
 ├── requirements.txt         # Python dependencies
 ├── setup.sh                 # Automated setup script
-├── docker-compose.yml       # Docker deployment
 └── README.md                # This file
 ```
 
@@ -904,7 +907,7 @@ setup_logging("DEBUG")  # DEBUG | INFO | WARNING | ERROR
 
 ```bash
 # Start all services
-docker-compose up -d
+docker-compose -f docker/docker-compose.yml up -d
 
 # Initialize database
 docker exec -it brand-analysis-api python scripts/init_neo4j.py
