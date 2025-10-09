@@ -30,6 +30,47 @@ Our solution transforms unstructured text into a structured knowledge graph that
 - **Context-Aware Storage**: Relationships stored with subcategory and sentiment metadata
 - **Intelligent Caching**: Reduces API costs through relationship reuse
 
+### System Workflow
+
+![Multi-Agent GraphRAG Pipeline Workflow](images/Untitled%20diagram-2025-10-09-003035.png)
+
+**Workflow Explanation**:
+
+The system follows a structured multi-agent pipeline that transforms unstructured text into a comprehensive knowledge graph:
+
+1. **Input Processing**: Raw text undergoes preprocessing and cleaning before entering the pipeline
+
+2. **Unified Extraction Agent (Circle - Blue)**: Single agent that performs three parallel extraction tasks:
+   - **Brand Extraction**: Identifies and extracts brand mentions with context
+   - **Category Classification**: Determines industry categories and subcategories  
+   - **Citation Extraction**: Extracts sources, URLs, and associated text passages
+
+3. **Data Processing Tools (Squares - Orange)**: Sequential processing steps:
+   - **Brand Normalization**: Standardizes brand names (e.g., "Meta Platforms, Inc." → "Meta")
+   - **Deduplication Logic**: Merges duplicate brand entries
+   - **URL Extraction**: Regex-based identification of web links
+   - **LLM Citation Parsing**: Associates URLs with relevant text passages
+
+4. **Relationship Agent (Circle - Blue)**: Core classification engine that receives all extracted data and performs:
+   - **Context-Aware Classification**: Determines relationship types based on specific contexts
+   - **Confidence Scoring**: Assigns 0-1 confidence scores to each relationship
+   - **Relationship Storage**: Persists new relationships to the knowledge graph
+
+5. **Specialized Search Tools (Diamonds - Pink)**: Positioned beside Relationship Agent:
+   - **Graph Search Tool**: Queries Neo4j database for existing relationships (cache hits)
+   - **Web Search Tool**: Uses Tavily API to find missing relationship data (cache misses)
+   - Both tools connect bidirectionally with Relationship Agent using dotted lines
+
+6. **Final LLM Aggregator (Circle - Blue)**: Processes all information and generates structured JSON output
+
+7. **Output Generation**: Produces machine-readable JSON and interactive Neo4j dashboard visualizations
+
+**Key Architectural Features**:
+- **Parallel Processing**: Extraction tasks run simultaneously for efficiency
+- **GraphRAG Caching**: Reduces API costs by reusing existing relationships
+- **Context Switching**: Same brands can have different relationships in different contexts
+- **Modular Design**: Each component can be independently improved or replaced
+
 
 ### Why Neo4j for GraphRAG
 
