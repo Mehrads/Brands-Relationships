@@ -8,7 +8,7 @@ We developed a production-ready multi-agent system that automates brand relation
 
 Traditional brand analysis faces three fundamental limitations:
 
-1. **Context Dependency**: The same companies can have different relationships in different contexts (e.g., Apple-Samsung as competitors in smartphones vs. partners in supply chain)
+1. **Context Dependency**: The same companies can have different relationships in different contexts (e.g., Apple-Samsung as competitors in smartphones vs. partners in supply chain). Since these complex, context-dependent relationships can be more effectively represented and queried using graph databases, we decided to use GraphRAG for our solution.
 2. **Scale Limitations**: Manual analysis doesn't scale for enterprise content volumes
 3. **Semantic Complexity**: Simple regex patterns fail to capture nuanced business relationships
 
